@@ -72,7 +72,7 @@ const apiUrl = `https://api.github.com/repos/${repoOwner}/${repoName}`;
 fetch(apiUrl)
   .then((response) => response.json())
   .then((data) => {
-    const lastModified = new Date(data.updated_at);
+    const lastModified = new Date(data.pushed_at);
     const lastModifiedText = document.getElementById("lastModifiedText");
     lastModifiedText.textContent += lastModified.toLocaleString();
   })
