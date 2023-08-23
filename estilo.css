@@ -221,6 +221,10 @@ html{
 .sobremi button:hover .overlay{
     width: 100%;
 }
+
+.sobremi button i{
+    padding-left: 10px;
+}
 /* SECCION S K I L L S */
 .skills{
     background-color: rgb(0, 0, 0, 0.85);
@@ -289,7 +293,7 @@ html{
 }
 @keyframes javascript {
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 60%;}
 }
 
 .skills .skill .htmlcss{
@@ -298,7 +302,7 @@ html{
 }
 @keyframes htmlcss {
     0%{width: 0%;}
-    100%{width: 70%;}
+    100%{width: 75%;}
 }
 
 .skills .skill .genexus{
@@ -307,7 +311,16 @@ html{
 }
 @keyframes genexus {
     0%{width: 0%;}
-    100%{width: 65%;}
+    100%{width: 78%;}
+}
+
+.skills .skill .aspnet{
+    width: 0%;
+    animation: 2s aspnet forwards;
+}
+@keyframes aspnet {
+    0%{width: 0%;}
+    100%{width: 60%;}
 }
 
 .skills .skill .csharp{
@@ -316,7 +329,16 @@ html{
 }
 @keyframes csharp {
     0%{width: 0%;}
-    100%{width: 81%;}
+    100%{width: 75%;}
+}
+
+.skills .skill .java{
+    width: 0%;
+    animation: 2s java forwards;
+}
+@keyframes java {
+    0%{width: 0%;}
+    100%{width: 30%;}
 }
 
 .skills .skill .mssql{
@@ -325,7 +347,7 @@ html{
 }
 @keyframes mssql {
     0%{width: 0%;}
-    100%{width: 55%;}
+    100%{width: 60%;}
 }
 
 .skills .skill .ws{
@@ -334,7 +356,7 @@ html{
 }
 @keyframes ws {
     0%{width: 0%;}
-    100%{width: 40%;}
+    100%{width: 20%;}
 }
 
 .skills .skill .comunicacion{
@@ -352,7 +374,7 @@ html{
 }
 @keyframes trabajo {
     0%{width: 0%;}
-    100%{width: 70%;}
+    100%{width: 80%;}
 }
 
 .skills .skill .creatividad{

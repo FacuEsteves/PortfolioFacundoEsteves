@@ -24,12 +24,14 @@ function efectoHabilidades() {
     habilidades[0].classList.add("javascript");
     habilidades[1].classList.add("htmlcss");
     habilidades[2].classList.add("genexus");
-    habilidades[3].classList.add("csharp");
-    habilidades[4].classList.add("mssql");
-    habilidades[5].classList.add("ws");
-    habilidades[6].classList.add("comunicacion");
-    habilidades[7].classList.add("trabajo");
-    habilidades[8].classList.add("dedicacion");
+    habilidades[3].classList.add("aspnet");
+    habilidades[4].classList.add("csharp");
+    habilidades[5].classList.add("java");
+    habilidades[6].classList.add("mssql");
+    habilidades[7].classList.add("ws");
+    habilidades[8].classList.add("comunicacion");
+    habilidades[9].classList.add("trabajo");
+    habilidades[10].classList.add("dedicacion");
   }
 }
 
