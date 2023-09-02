@@ -42,7 +42,7 @@ window.onscroll = function () {
 document
   .getElementById("downloadButton1")
   .addEventListener("click", function () {
-    var fileUrl = "file/CV Facundo Esteves esp.pdf";
+    var fileUrl = "file/CV Facundo Esteves español.pdf";
 
     var fileName = "CV_Facundo_Esteves.pdf";
 
@@ -56,7 +56,7 @@ document
 document
   .getElementById("downloadButton2")
   .addEventListener("click", function () {
-    var fileUrl = "file/CV Facundo Esteves Ing.pdf";
+    var fileUrl = "file/CV Facundo Esteves ingles.pdf";
 
     var fileName = "CV_Facundo_Esteves.pdf";
 
