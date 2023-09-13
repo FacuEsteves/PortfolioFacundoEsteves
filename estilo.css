@@ -130,6 +130,9 @@ html{
 .sobremi .contenido-seccion p span{
     color: #F3E5AB;
 }
+.sobremi .contenido-seccion p a{
+    color: #ffffff;
+}
 .sobremi .fila{
     display: flex;
 }
