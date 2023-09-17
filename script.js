@@ -40,9 +40,9 @@ window.onscroll = function () {
 };
 
 document
-  .getElementById("downloadButton1")
+  .getElementById("downloadRubrica")
   .addEventListener("click", function () {
-    var fileUrl = "file/CV Facundo Esteves español.pdf";
+    var fileUrl = "https://drive.google.com/file/d/1ArCVbLPsAsGArdeZQTHgJxDU8lpMu_mO/view?usp=sharing";
 
     var fileName = "CV_Facundo_Esteves.pdf";
 
@@ -54,9 +54,23 @@ document
   });
 
 document
-  .getElementById("downloadButton2")
+  .getElementById("downloadCVes")
   .addEventListener("click", function () {
-    var fileUrl = "file/CV Facundo Esteves ingles.pdf";
+    var fileUrl = "https://drive.google.com/file/d/1_EQa0_4RN1SM_qy1Ch2DpqdZyY3z-51n/view?usp=sharing";
+
+    var fileName = "CV_Facundo_Esteves.pdf";
+
+    var link = document.createElement("a");
+    link.href = fileUrl;
+    link.download = fileName;
+
+    link.click();
+  });
+
+document
+  .getElementById("downloadCVin")
+  .addEventListener("click", function () {
+    var fileUrl = "https://drive.google.com/file/d/1_CwSW6wmCQTi7IkVXainq1749HwKUTjI/view?usp=sharing";
 
     var fileName = "CV_Facundo_Esteves.pdf";
 
